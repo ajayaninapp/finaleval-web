@@ -24,7 +24,7 @@ body{
     width: 20%;
     height: 100%;
     transition: 0.5s;
-    background-color: grey;
+    background: #343a40;
     overflow: hidden;
 }
 
@@ -49,7 +49,7 @@ body{
     margin-bottom: 20px;
 }
 .nav ul li:nth-child(1):hover{
-    background: blue;
+    background: #3296ee;
 }
 
 .nav ul li a{
@@ -71,14 +71,15 @@ body{
 
 
 .nav ul li a .icon .fa{
-    font-size: 24px;
+    font-size: 15px;
+    
 }
 
 .nav ul li a .title{
     position: relative;
     display: block;
-    padding: 0 10px;
-    line-height: 70px;
+    padding: 0 5px;
+    line-height: 85px;
     height: 60px;
     white-space: nowrap;
 }
@@ -93,7 +94,7 @@ body{
 
 .main .topbar{
     width: 100%;
-    background: blue;
+    background: #3296ee;
     height: 50px;
     display: flex;
     justify-content: right;
@@ -230,7 +231,7 @@ body{
   }
 
   .bgblue{
-    background-color: blue;
+    background: #3296ee;
     padding: 20px;
     padding: 0;
     margin-right: 10px;
@@ -244,7 +245,7 @@ body{
     margin-right: 10px;
   }
   .bgyellow{
-    background-color: yellow;
+    background-color: #e6e600;
     padding: 20px;
     padding: 0;
     text-align: left;
@@ -293,6 +294,9 @@ body{
 .box-2 {
 	display: flex;
 	flex-direction: column;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
 }
 .box-title {
 	display: flex;
@@ -371,3 +375,4 @@ progress {
 	justify-content: space-around;
 	border-top: solid 1px rgb(197, 197, 197);
 }
+
